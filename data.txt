@@ -1,0 +1,5 @@
+Doussaud|Benjamin|041284712128374921134421|France|benjamin@gmail.com
+Jean|Jack|036492|Espagne|Jean.jackdu304020@gmail.com
+Christophe|Dupont|0603840282|Italie|chrichri@hotmail.fr
+Sylvain|Devoir|028373894|Belgique|Sylv@hotmail.com
+Doussaud|Benjamin|041284712128374921134421|France|benjamin@gmail.com
