@@ -241,6 +241,12 @@
             }
         }
 
+          function initializeTable() {
+            for (let i = 0; i < 5; i++) {
+                addRow();
+            }
+        }
+
         // Rendre les fonctions globales
         window.loadPDFData = loadPDFData;
         window.calculateCosts = calculateCosts;
@@ -279,21 +285,7 @@
             </tr>
         </thead>
         <tbody>
-            <?php for ($i = 0; $i < 5; $i++): ?>  
-            <tr>        
-                <td>
-                    <select onchange="calculateCosts()">                               
-                        <option value="gestion_de_projet">Gestion de Projet</option>
-                        <option value="tests">Tests</option>
-                        <option value="developpement">Developpement</option>
-                    </select>
-                </td>
-                <td><input type="text" oninput="calculateCosts()"></td>
-                <td><input type="number" oninput="calculateCosts()"></td>
-                <td>0.00</td>
-                <td>0.00</td>
-            </tr>
-            <?php endfor; ?>
+
         </tbody>
     </table>
 
